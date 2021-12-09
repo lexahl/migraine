@@ -1,0 +1,13 @@
+header:
+  - name: home
+    title: home page
+    url: /
+  - name: about
+    title: about this project
+    url: /about/
+  - name: chatbot
+    title: chatbot
+    url: /chatbot/
+  - name: resources
+    title: resources
+    url: /resources/

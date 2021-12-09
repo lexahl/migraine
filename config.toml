@@ -1,0 +1,35 @@
+baseURL = "/"
+languageCode = "en"
+title = "my migraine"
+author = "alexandria"
+description = "I don't need to explain this to you, but I want to."
+metaDataFormat = "yaml"
+
+[params]
+  orgName = "my migraine"
+  favicon = "/img/favicon.ico"
+  textFontFamily = "sans-serif"
+  headingFontFamily = "sans-serif"
+  siteBgColor = "gray"
+  sidebarBgColor = "light-gray"
+  headlineColor = "near-black"
+  headingColor = "near-black"
+  textColor = "dark-gray"
+  sidebarTextColor = "near-black"
+  bodyLinkColor = "yellow"
+  navLinkColor = "yellow"
+  sidebarLinkColor = "near-black"
+  footerTextColor = "silver"
+  buttonTextColor = "near-white"
+  buttonBgColor = "black"
+  buttonHoverTextColor = "white"
+  buttonHoverBgColor = "blue"
+  borderColor = "moon-gray"
+  # show/hide social icons in site header/footer
+  socialInHeader = false
+  socialInFooter = false
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
