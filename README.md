@@ -1,4 +1,4 @@
-# migraine chatbot
+# migraine chatbot - my migraines
 
 _A chatbot for the conversation that I am too tired to have_
 
