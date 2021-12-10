@@ -1,10 +1,11 @@
 <header class="site-header pa4 bb b--transparent" role="banner">
   <nav class="site-nav db dt-l w-100" role="nav">
     <div class="site-links db dtc-l v-mid w-100 w-47-l tc tr-l mt3 mt0-l">
+    <div role="navigation" aria-label="Main">
       {{ range $.Site.Data.navigation.header }}
       <a class="link f6 f5-l dib pv1 ph2" href="{{ .url }}" title="{{ .title }}">{{ .name }}</a>
       {{ end }}
-
+	</div>
     </div>
   </nav>
 </header>
