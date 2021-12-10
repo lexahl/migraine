@@ -1,13 +1,13 @@
 header:
   - name: home
     title: home page
-    url: /
+    url: https://lexahl.github.io/migraine/
   - name: about
     title: about this project
-    url: /about/
+    url: /migraine/about/
   - name: chatbot
     title: chatbot
-    url: /chatbot/
+    url: /migraine/chatbot/
   - name: resources
     title: resources
-    url: /resources/
+    url: /migraine/resources/
