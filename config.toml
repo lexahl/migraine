@@ -7,7 +7,7 @@ metaDataFormat = "yaml"
 
 [params]
   orgName = "my migraine"
-  favicon = "/img/favicon.ico"
+  favicon = "https://raw.githubusercontent.com/lexahl/migraine/main/static/img/favicon.ico"
   textFontFamily = "sans-serif"
   headingFontFamily = "sans-serif"
   siteBgColor = "gray"
