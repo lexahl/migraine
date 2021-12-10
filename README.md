@@ -1,6 +1,7 @@
 # migraine chatbot - my migraines
 
-_A chatbot for the conversation that I am too tired to have_
+_A chatbot for the conversation that I am too tired to have._
+<a href="https://lexahl.github.io/migraine/" target="_blank">https://lexahl.github.io/migraine/</a>
 
 I designed this chatbot to assist me with talking about my migraines. I’ve had migraines for more than 9 years now. They started when I was 15. I usually get a couple of migraines each week. I know you can’t see my migraines, so I guess that it is hard to understand what they are like and how having migraines affects me.
 
