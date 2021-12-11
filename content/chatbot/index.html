@@ -25,7 +25,7 @@ show_title_as_headline: true
     <link rel="stylesheet" media="all" href="styles/input.css">
     <style>
         body {
-            background: #dcdde0;
+            background: #CCCCCC;
         }
 
         .bubble-container {
@@ -46,17 +46,15 @@ show_title_as_headline: true
   Scroll down to start the conversation. The chatbot is not accessible for screenreaders and could be challenging for some users. <a href="https://raw.githubusercontent.com/lexahl/migraine/main/static/migraine.txt" target="_blank">Click here for a plain text file of the conversation.</a>
 </p>
 
-
 <hr class="f4 ba b--black-10 mt5 mb4 ml0">
-<p class="f4 measure lh-copy">
-<b>I don't need to explain this to you, but I want to.</b> I know you can't see my migraine attacks, so I guess it can be hard to understand. I have borne the labour of explaining my migraine attacks for nine years now, and I am often too tired to have this conversation anymore. I can't speak for everyone with migraine and what they experience, but maybe this chatbot and learning about my experiences will help you understand what people with migraine go through. 
+<b>I don't need to explain this to you, but I want to.</b> I know you can't see my migraines, so I guess it can be hard to understand. I have borne the labour of explaining my migraine attacks for nine years now, and I am often too tired to have this conversation anymore. I can't speak for everyone with migraines and what they experience, but maybe this chatbot and learning about my experiences will help you understand what people with this condition go through. 
 <br><br>
-I have had this conversation too often not to program the chatbot to be direct. If my pain and the bluntness of the dialogue happen to offend you at any point, remember that this is a chatbot, and you can close the window. This is how I want to share my experience, which is safe for me.
+I have had this conversation too often not to program the chatbot to be direct. If the dialogue happens to offend you at any point, remember that this is a chatbot, and you can close the window. This is how I want to share my experience, which is safe for me.
 <br><br>
-If you have migraine attacks, please know you are not alone and that I hope you can feel ok. Maybe this chatbot can spread awareness and get more research done, and perhaps this chatbot will make one other person on the planet know that they are not alone. 
+If you have migraines, please know you are not alone and that I hope you can feel ok. Maybe this chatbot can spread awareness and get more research done, and perhaps this chatbot will make one other person on the planet know that they are not alone. 
 <br><br>
-Migraine attacks can take many forms and affect and impact people unevenly. If you are here because you think you have migraine attacks, I would not recommend comparing my experiences with your experiences. Self-diagnosis can be empowering and help you take care of yourself, but without talking to a doctor and seeing a neurologist, you may not get the help you need. On the other hand, if you are here because someone in your life has migraine attacks, then please remember (again) that my experiences are not the same as theirs. Listen to them about what they need, be patient, and be supportive.
-</p>
+Migraines can take many forms and affect and impact people unevenly. If you are here because you think you have migraine attacks, I would not recommend comparing my experiences with your experiences. Self-diagnosis can be empowering and help you take care of yourself, but without talking to a doctor and seeing a neurologist, you may not get the help you need. On the other hand, if you are here because someone in your life has migraine attacks, then please remember (again) that my experiences are not the same as theirs. Listen to them about what they need, be patient, and be supportive.
+
 
 <hr class="f4 ba b--black-10 mt5 mb4 ml0">
 
@@ -114,15 +112,15 @@ var convo = {
     ],
     reply: [
       {
-        question: "I want to learn what I can do.", 
+        question: "I want to learn what I can do. (4 questions)", 
         answer: "user1"
       }, 
       {
-        question: "I want to learn about your migraines.", 
+        question: "I want to learn about your migraines. (13 questions)", 
         answer: "about"
       },
       {
-        question: "I want to learn about what you experience during a migraine.", 
+        question: "I want to learn about what you experience during a migraine. (6 questions)", 
         answer: "exp" 
       },
       {
@@ -227,7 +225,7 @@ var convo = {
     ],
     reply: [
       {
-        question: "Ok. Let's talk about something else.",
+        question: "Ok. I want talk about something else.",
         answer: "menu2"
       },
       {
