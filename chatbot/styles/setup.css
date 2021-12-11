@@ -21,7 +21,7 @@
 }
 /* optional page styles */
 h1 {
-	text-align: center;
+	text-align: left;
 	font-weight: 300;
 	font-size: 4em;
 	margin: .5em auto 0.15em;
