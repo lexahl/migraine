@@ -79,7 +79,7 @@ I have had this conversation too often not to program the chatbot to be direct. 
 <br><br>
 If you have migraines, please know you are not alone and that I hope you can feel ok. Maybe this chatbot can spread awareness and get more research done, and perhaps this chatbot will make one other person on the planet know that they are not alone. 
 <br><br>
-Migraines can take many forms and affect and impact people unevenly. If you are here because you think you have migraine attacks, I would not recommend comparing my experiences with your experiences. Self-diagnosis can be empowering and help you take care of yourself, but without talking to a doctor and seeing a neurologist, you may not get the help you need. On the other hand, if you are here because someone in your life has migraine attacks, then please remember (again) that my experiences are not the same as theirs. Listen to them about what they need, be patient, and be supportive.
+Migraines can take many forms and affect and impact people differently. If you are here because you think you have migraine attacks, I would not recommend comparing my experiences with your experiences. Self-diagnosis can be empowering and help you take care of yourself, but without talking to a doctor and seeing a neurologist, you may not get the help you need. On the other hand, if you are here because someone in your life has migraine attacks, then please remember (again) that my experiences are not the same as theirs. Listen to them about what they need, be patient, and be supportive.
 
 
 <hr class="f4 ba b--black-10 mt5 mb4 ml0">
@@ -98,7 +98,8 @@ Migraines can take many forms and affect and impact people unevenly. If you are 
 
 
 
-// intro    
+// intro 
+   
 var convo = {
   ice: {
     says: [
@@ -114,21 +115,21 @@ var convo = {
   "menu1": {
     says: [
       "Thanks for starting the conversation.",
+      "This is a guided conversation with set questions and answers.",
       "In this chatbot I want to share more information about my migraines, what I experience during a migraine, and what you can do.",
-      "...",
       "What do you want to start talking about?"
     ],
     reply: [
       {
-        question: "I want to learn what I can do. (4 questions)", 
+        question: "I want to learn what I can do. (8 questions)", 
         answer: "user1" 
       },
       {
-        question: "I want to learn about your migraines. (13 questions)", 
+        question: "I want to learn about your migraines. (16 questions)", 
         answer: "about"
       },
       {
-        question: "I want to learn about what you experience during a migraine. (6 questions)", 
+        question: "I want to learn about what you experience during a migraine. (7 questions)", 
         answer: "exp" 
       }
     ]
@@ -139,15 +140,15 @@ var convo = {
     ],
     reply: [
       {
-        question: "I want to learn what I can do. (4 questions)", 
+        question: "I want to learn what I can do. (8 questions)", 
         answer: "user1"
       }, 
       {
-        question: "I want to learn about your migraines. (13 questions)", 
+        question: "I want to learn about your migraines. (16 questions)", 
         answer: "about"
       },
       {
-        question: "I want to learn about what you experience during a migraine. (6 questions)", 
+        question: "I want to learn about what you experience during a migraine. (7 questions)", 
         answer: "exp" 
       },
       {
@@ -160,14 +161,14 @@ var convo = {
     
     
     
+   
+   
     
     
     
     
     
 // what you can do.  
-
-
   
   "user1": {
     says: [
@@ -184,20 +185,28 @@ var convo = {
     "user2": {
     says: [
       "If someone you know is having a migraine:",
-      "Ask them what they need. Patiently, calmly, and trust their symptoms.",
-      "This could mean helping them find a place to lay down",
-      "Finding some snacks such as candy, ice water, ice chips, salty snacks, coca-cola or other sugary/caffeinated drinks, coffee, tea, french fries, juice...",
-      "Keeping the head cold with ice packs",
-      "Keeping the neck warm with heat packs",
-      "Finding blankets",
-      "Helping them find a bin to throw up in",
-      "Electrolytes.",
-      "No bright lights.",
-      "and no perfume."
+      "Ask them what they need. Patiently, calmly, and trust their symptoms."
     ],
     reply: [
       {
-        question: "Ok. What should I not ask when someone is having a migraine?",
+        question: "What could they need?",
+        answer: "user21"
+      }
+    ]
+  },
+  "user21": {
+    says: [
+      "They could need help finding a place to lay down.",
+      "Finding some snacks such as candy, ice water, ice chips, salty snacks, coca-cola or other sugary/caffeinated drinks, electrolytes, coffee, tea, french fries, juice...",
+      "Keeping the head cold with ice packs.",
+      "Keeping the neck warm with heat packs.",
+      "Finding blankets.",
+      "Help finding a bin to throw up in.",
+      "No bright lights, and no perfume."
+    ],
+    reply: [
+      {
+        question: "I could do these things. What should I *not* ask when someone is having a migraine?",
         answer: "user3"
       }
     ]
@@ -223,29 +232,60 @@ var convo = {
 	 "It's just a bad headache",
 	 "Do yoga! (or any other exercise routine)",
 	 "Try essential oils!",
-	 "While some Naturopathic practices and exercises have helped some people with migraines, they do not work for everyone. (and chances are that they have already tried it!)",
-	 "I get headaches all the time too! (yes, your pain is valid, but knowing this does not help and neither does Tylenol)",
-	 "Try meditation!",
-	 "Have you tried the ___ diet?"
+	 "Have you tried the _____ diet?",
+	 "I get headaches all the time too! (yes, your pain is valid, but knowing this does not help)"
+    ],
+    reply: [
+      {
+        question: "But that worked for me/my neighbour/this one 60 year old man?",
+        answer: "user411"
+      }
+    ]
+  },
+    "user411": {
+    says: [
+	 "Good for them. Don't say these things anyways.",
+	 "While some Naturopathic practices and exercises have helped some people with migraines, they do not work for everyone.",
+	 "And chances are that they have already tried it!"
     ],
     reply: [
       {
         question: "Understood. How can I talk about migraine/migraines?",
-        answer: "user5"
+        answer: "user41"
       }
     ]
   },
-    "user5": {
+    "user41": {
     says: [
       "Language is important and can shape how we understand things.",
 	  "When talking about my experiences, I use the term migraines (plural).",
-	  "Other people may say they have migraine (singular) to describe a similar experience.",
-	  "This is also how the condition is referred to in academic and medical settings.",
+	  "Other people may say they have migraine (singular) to describe a similar experience."
+    ],
+    reply: [
+      {
+        question: "How is the term migraine used?",
+        answer: "user42"
+      }
+    ]
+  },
+      "user42": {
+    says: [
+      "This is how the condition is referred to in academic and medical settings.",
 	  "Migraine is used like asthma.",
 	  "For example, a person has asthma and gets asthma attacks.",
 	  "A person has migraine and gets migraine attacks.",
 	  "A person with over 15 migraine attacks per month has chronic migraine.",
-	  "Saying migraine emphasizes that even between migraine attacks, a person's life is impacted by this condition.",
+	  "Saying migraine emphasizes that even between migraine attacks, a person's life is impacted by this condition."
+    ],
+    reply: [
+      {
+        question: "Why do you say migraines (plural)?",
+        answer: "user5"
+      }
+    ]
+  },
+  "user5": {
+    says: [
 	  "I choose to say my migraines (plural) when talking about my experiences because mine are different each time, unpredictable, and I have times without migraines.",
 	  "Not everyone feels the same way about this term, and because we all have different experiences, respecting how we talk about our own experiences matters.",
 	  "Just please don't interchange migraine(s) and headache."
@@ -261,7 +301,6 @@ var convo = {
       }
     ]
   },
-  
   
   
   
@@ -303,9 +342,20 @@ var convo = {
     says: [
  	  "This is one of the most common questions I get when talking about my migraines.",
       "But I'm not a doctor, and I don't always know exactly where that line is.",
-      "There are many infographics when you image search online but, this infographic represents my experiences the most.",
-      "<img src=https://github.com/lexahl/migraine/blob/main/static/img/headache-or-migraine.png?raw=true />",
-      "I also get headaches, and when I do, they are annoying, and the experience does not compare.", 
+      "This infographic best represents my experiences.",
+      "<img src=https://github.com/lexahl/migraine/blob/main/static/img/headache-or-migraine.png?raw=true />"
+    ],
+    reply: [
+      {
+        question: "Do you get headaches?",
+        answer: "about21"
+      }
+    ]
+  },
+  "about21": {
+    says: [
+      "Yes, I also get headaches.",
+      "When I do have a headache, they are annoying, but they do not compare to my migraines.", 
       "Unlike when I get a migraine, I can continue my day with a headache, and they mostly go away with OTC (over the counter) painkillers."
     ],
     reply: [
@@ -318,7 +368,7 @@ var convo = {
     "about3": {
     says: [
      "Weekly or biweekly or up to 10x per month.",
-	 "I have had months with more migraines and months with 0 migraines."
+	 "I have had months with more than 10 migraines and months with 0 migraines."
     ],
     reply: [
       {
@@ -338,15 +388,26 @@ var convo = {
     reply: [
       {
         question: "What are triggers?",
+        answer: "about51"
+      }
+    ]
+  },
+   "about51": {
+    says: [
+      "In the migraine community and with doctors, triggers are what some people with migraines know can result in migraines.",
+      "Some members of the migraine community do not believe triggers exist but are just part of their prodrome (part of the migraine attack that comes before the pain).",
+      "Learning about triggers can be empowering, but there are many feelings of guilt and shame around triggers."
+    ],
+    reply: [
+      {
+        question: "So if you know your triggers, you could prevent your migraines?",
         answer: "about5"
       }
     ]
   },
-   "about5": {
+  "about5": {
     says: [
-      "In the migraine community and with doctors, triggers are what some people with migraines know can result in migraines.",
-      "Some members of the migraine community do not believe triggers exist but are just part of their prodrome (part of the migraine attack that comes before the pain).",
-      "Learning about triggers can be empowering, but there are many feelings of guilt and shame around triggers.",
+      "Not really.",
       "Some days, even if I do everything right, I can still have a migraine.",
       "If you have migraines, be kind to yourself."
     ],
@@ -372,25 +433,47 @@ var convo = {
     "about7": {
     says: [
  	  "Barometric changes (pressure/weather)",
- 	  "<img src=https://github.com/lexahl/migraine/blob/main/static/img/ahshit.png?raw=true />",
+ 	  "<img src=https://github.com/lexahl/migraine/blob/main/static/img/ahshit.png?raw=true/>"
+    ],
+    reply: [
+      {
+        question: "Yikes!",
+        answer: "about71"
+      }
+    ]
+  },
+  "about71": {
+    says: [
+ 	  "There are more...",
  	  "Too much caffeine",
  	  "Too little caffeine",
  	  "Too much sugar",
  	  "Too little sugar",
  	  "Too much sleep",
- 	  "Too little sleep",
+ 	  "Too little sleep"
+    ],
+    reply: [
+      {
+        question: "Double yikes!!",
+        answer: "about72"
+      }
+    ]
+  },
+  "about72": {
+    says: [
+ 	  "And more...",
  	  "Sleeping in a bad position",
  	  "<img src=https://github.com/lexahl/migraine/blob/main/static/img/myneck.png?raw=true />",
- 	  "Some clothing items with pressure on the head, neck, shoulder, or back",
+ 	  "Some clothing items with pressure on my head, neck, shoulder, or back",
  	  "Exercise",
  	  "Crying",
  	  "Allergies",
  	  "Stress",
-      "... maybe there are more."
+      "... and maybe some more that I do not know about yet."
     ],
     reply: [
       {
-        question: "Have you always had migraines?",
+        question: "Triple yikes!!! Have you always had migraines?",
         answer: "about8"
       }
     ]
@@ -413,9 +496,8 @@ var convo = {
     says: [
      "Also, no.",
 	 "My migraines do not happen at any specific time of the day or month, or year.",
-	 "Somedays, I have been woken up in the middle of the night because of a migraine.",
-	 "For many people with migraines, monthly hormone changes or changes such as menopause can cause more or fewer migraines.",
-	 "The Mayo Clinic says that migraines often first occur during adolescence (10-19) and are the worst during one's 30s."
+	 "Somedays, I get woken up in the middle of the night because of a migraine.",
+	 "And on other days, they happened when I am awake."
     ],
     reply: [
       {
@@ -427,7 +509,7 @@ var convo = {
   "about10": {
     says: [
      "I wish I knew.",
-	 "I avoid my triggers as much as I can, which for me means being aware of what I eat and drink, how much I sleep, what clothes I wear...",
+	 "I avoid my triggers as much as I can, which for me means being aware of everything I eat and drink, how much I sleep each night, what clothes I wear...",
 	 "But again, I can do everything right and still not be able to prevent a migraine."
     ],
     reply: [
@@ -453,12 +535,11 @@ var convo = {
   "about12": {
     says: [
 	 "It depends on the person.",
-	 "The Mayo Clinic says that a migraine usually lasts from 4 to 72 hours if untreated.",
-	 "Most of my migraines last a day (24 hours) if I don't take a pill and 3-4 hours if I take a pill (and it works)."
+	 "Most of my migraines last around 24 hours if I don't take a pill, and 3-4 hours if I take a pill (and it works)."
     ],
     reply: [
       {
-        question: "Do you take anything for it?",
+        question: "What do you take for your migraines?",
         answer: "about13"
       }
     ]
@@ -466,13 +547,10 @@ var convo = {
   "about13": {
     says: [
 	 "I take triptans.",
-	 "There are two main types of migraine medicinal treatments; abortive and preventative.",
-	 "Triptans are abortive, meaning that they are supposed to stop a migraine and the associated symptoms when I can feel one coming on or once it has started.",
-	 "They usually work for me, but sometimes they don't work.",
-	 "Other abortive treatments can focus on reducing nausea, but I don't take those very often. ",
+	 "There are two main types of medicinal migraine treatments; abortive and preventative.",
+	 "Triptans are abortive, meaning that they are supposed to stop my migraine and associated symptoms when I can feel one starting or happening.",
 	 "Preventative treatments are to reduce the occurrence and severity of migraines. ",
-	 "I've tried taking magnesium, which is a preventative treatment...",
-	 "But it makes me feel nauseous, which can trigger a migraine for me."
+	 "In the past I tried taking magnesium, which is a preventative treatment, but it did not work for me."
     ],
     reply: [
       {
@@ -484,11 +562,9 @@ var convo = {
     "about14": {
     says: [
       "If it does not go away with the triptan, I wait it out.",
-	  "Waiting is terrible physical-pain wise and terrible for my mental health.",
-	  "When this happens, it does not usually last more than 24 hours for me.",
-	  "I have been lucky to not have needed to visit the ER (emergency room) because of a migraine.",
-	  "Many others with this condition often need to visit the ER.",
-	  "From what I've read in the r/migraine community, it is the last option people have and is often a terrible experience."
+      "Triptans usually work for me, but sometimes they don't work.",
+	  "Waiting it out is terrible physical-pain wise and terrible for my mental health.",
+	  "When this happens, it does not usually last more than 24 hours for me."
     ],
     reply: [
       {
@@ -511,16 +587,14 @@ var convo = {
 
 
 
-
-
-// experience (exp)
+// experience
 
 
    "exp": {
     says: [
-      "You want to talk about my migraines.",
+      "You want to know what I experience during a migraines.",
       "Ok.",
-      "I guess that's why we are both here."
+      "I'll try my best to explain."
     ],
     reply: [
       {
@@ -558,94 +632,108 @@ var convo = {
   },
     "exp3": {
     says: [
-     "Migraines are more than just the pain.",
-	 "Technically, they have 4 main phases; prodrome, aura, headache (the very painful part), and postdrome.",
-	 "Sometimes, I get an aura before my migraines.",
-	 "An aura is also different in people with migraines. ",
-	 "Mine are visual auras."
+     "My migraines are more than just the pain.",
+	 "Technically, migraines have 4 main phases; prodrome, aura, headache (the very painful part), and postdrome.",
+	 "Sometimes, I get a visual aura during the prodrome phase of my migraines.",
     ],
     reply: [
       {
-        question: "Show me what your aura is like.",
+        question: "Click here to watch a video of what I see during an aura.",
         answer: "exp35"
       },
       {
-        question: "Explain to me what your aura is like.",
+        question: "Click here to read and see images of what I see during an aura.",
         answer: "exp4"
       }
     ]
   },
     "exp35": {
     says: [
-	  "<iframe width=420 height=315 src=https://www.youtube.com/embed/qVFIcF9lyk8></iframe>",
-	  "But on the left side, not the right side."
+      "I see this but on the left side of my vision, not the right side.",
+	  "<iframe width=420 height=315 src=https://www.youtube.com/embed/qVFIcF9lyk8></iframe>"
     ],
     reply: [
       {
-        question: "What happens after the aura?",
+        question: "Wow. What happens after the aura?",
         answer: "exp5"
       }
     ]
   },"exp4": {
     says: [
-      "For me, the aura is a blind or blurry spot and then grows.",
+      "For me, the aura is a blind/blurry spot that then grows.",
 	  "It starts at the centre of my vision, and then I can no longer read.",
 	  "It grows to the left and up to form a crescent shape.",
-	  "As it grows, I see colourful zig-zags, and everything is blurry.",
-	  "The crescent shape lasts the longest and then grow to blur all my vision.",
-	  "My auras take about 20 minutes and then clear up.",
-	  "From a quick image search online for aura migraines, I'll share some photos to show you what I see during the aura.",
-	  "It looks a bit like this, but blurrier.",
-	  "<img src=https://github.com/lexahl/migraine/blob/main/static/img/aura2.png?raw=true />",
-	  "Like this, but less bright and more zig-zags.",
-	  "<img src=https://github.com/lexahl/migraine/blob/main/static/img/aura2.jpeg?raw=true />",
-	  "And this is how it evolves (from left to right and then down). Everything inside the crescent is blurry for me."
+	  "As it grows, I see colourful zig-zags, and everything in the centre is blurry.",
+	  "The crescent shape lasts the longest and then grows to blur all my vision."
     ],
     reply: [
       {
-        question: "What happens after the aura?",
+        question: "Click here to see the images.",
+        answer: "exp41"
+      }
+    ]
+  },
+  "exp41": {
+    says: [
+	  "It looks a bit like this for me, but blurrier.",
+	  "<img src=https://github.com/lexahl/migraine/blob/main/static/img/aura2.png?raw=true />",
+	  "Like this, but less bright and more zig-zags.",
+	  "<img src=https://github.com/lexahl/migraine/blob/main/static/img/aura2.jpeg?raw=true />"
+    ],
+    reply: [
+      {
+        question: "Wow. What happens after the aura?",
         answer: "exp5"
       }
     ]
   },
    "exp5": {
     says: [
-      "After an aura, I either get a painful migraine, or I don't feel pain but still experience other migraine symptoms.",
-      "For me, it's 50/50 if I get a painful migraine or not.",
-      "Doctors have told me that I am more at risk to have blood clots and strokes because I experience auras with migraines.",
-      "Because of this, I cannot take certain medications such as birth control.",
-      "When I first got auras, nobody understood what I was experiencing.",
-      "I never thought to google what I was experiencing until my doctor told me they were auras.",
-      "Other people experience auras differently and in different parts of their bodies.",
-      "Some people with migraines don't experience any auras at all, but they might experience some prodrome symptoms to know when a migraine is coming."
+      "My auras take about 20 minutes and then my vision clears up.",
+      "After an aura, I either get a painful migraine, or I don't feel pain, but may still experience other migraine symptoms.",
+      "For me, it's 50/50 if I get a painful migraine or not."
     ],
     reply: [
       {
-        question: "Does anything else happen?",
+        question: "Why do you experience auras?",
+        answer: "exp51"
+      }
+    ]
+  },
+  "exp51": {
+    says: [
+      "Nobody really knows...",
+      "Doctors have told me that I am more at risk to have blood clots and strokes because I experience auras with my migraines.",
+      "Because of this, I cannot take certain medications such as birth control.",
+      "When I first got auras, nobody understood what I was experiencing.",
+      "I did not know what I was experiencing until my doctor told me they were auras."
+    ],
+    reply: [
+      {
+        question: "Can everyone with migraines see what you see?",
+        answer: "exp52"
+      }
+    ]
+  },
+  "exp52": {
+    says: [
+      "Not unless they have auras.",
+      "Even then, it is not the exact same for everyone.",
+      "Other people can also experience auras in different parts of their body.",
+      "Some people with migraines don't experience any aura at all, but they might experience some prodrome symptoms to know when a migraine is coming."
+    ],
+    reply: [
+      {
+        question: "Does anything else happen during your migraines?",
         answer: "exp6"
       }
     ]
   },
     "exp6": {
     says: [
-      "I also experience aphasia throughout my migraine attacks.",
-      "When I experience aphasia during a migraine, I forget words, can't think well, and do not complete my sentences."
-    ],
-    reply: [
-      {
-        question: "Talk about something else.",
-        answer: "menu2"
-      },
-      {
-        question: "End the chat.",
-        answer: "end" 
-      }
-    ]
-  },
-  "aura": {
-    says: [
-      "I also experience aphasia throughout my migraine attacks.",
-      "When I experience aphasia during a migraine, I forget words, can't think well, and do not complete my sentences."
+      "I also experience aphasia throughout my migraines.",
+      "When I experience aphasia during a migraine, I forget words, can't think well, and do not complete my sentences.",
+      "It is frustrating."
     ],
     reply: [
       {
@@ -688,14 +776,12 @@ var convo = {
 
 
 
-// end conversation
 
 
 
 
+// js functions (not all in use)
 
-
-// this function is called when user asks for banana
 var auraFunction = function () {
  alert("🍌");
  chatWindow.talk(convo, "exp5"); 
@@ -724,7 +810,5 @@ function toggleOverlay(){
 }
 
 </script>
-
-
 </body>
 </html>

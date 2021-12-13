@@ -1,180 +1,178 @@
-I designed this chatbot to assist me with talking about my migraines. I've had migraines for more than 9 years now. They started when I was 15. I usually get a couple of migraines each week. I know you can't see my migraines, so I guess that it is hard to understand what they are like and how having migraines affects me.
+I don't need to explain this to you, but I want to. I know you can't see my migraines, so I guess it can be hard to understand. I have borne the labour of explaining my migraine attacks for nine years now, and I am often too tired to have this conversation anymore. I can't speak for everyone with migraines and what they experience, but maybe this chatbot and learning about my experiences will help you understand what people with this condition go through. 
 
-I don't need to explain this to you, but I want to. I know you can't see my migraine attacks, so I guess it can be hard to understand. I have borne the labour of explaining my migraine attacks for nine years now, and I am often too tired to have this conversation. I can't speak for everyone with migraines and what they experience, but maybe this chatbot and learning about my experiences will help you understand what people with migraines go through.
+I have had this conversation too often not to program the chatbot to be direct. If the dialogue happens to offend you at any point, remember that this is a chatbot, and you can close the window. This is how I want to share my experience, which is safe for me.
 
-I have had this conversation too often to not program the chatbot to be direct. If my pain and the bluntness of the dialogue happen to offend you at any point, remember that this is a chatbot, and you can close the window. This is how I want to share my experience, which is safe for me.
+If you have migraines, please know you are not alone and that I hope you can feel ok. Maybe this chatbot can spread awareness and get more research done, and perhaps this chatbot will make one other person on the planet know that they are not alone. 
 
-If you have migraines, please know you are not alone and that I hope you can feel ok. Maybe this chatbot can spread awareness and get more research done, and perhaps this chatbot will make one other person on the planet know that they are not alone.
+Migraines can take many forms and affect and impact people differently. If you are here because you think you have migraine attacks, I would not recommend comparing my experiences with your experiences. Self-diagnosis can be empowering and help you take care of yourself, but without talking to a doctor and seeing a neurologist, you may not get the help you need. On the other hand, if you are here because someone in your life has migraine attacks, then please remember (again) that my experiences are not the same as theirs. Listen to them about what they need, be patient, and be supportive.
 
-Migraines can take many forms and affect and impact people unevenly. If you are here because you think you have migraine attacks, I would not recommend comparing my experiences with your experiences. Self-diagnosis can be empowering and help you take care of yourself, but without talking to a doctor and seeing a neurologist, you may not get the help you need. On the other hand, if you are here because someone in your life has migraine attacks, then please remember again that my experiences are not the same as theirs. Listen to them about what they need, be patient, and be supportive.
 
-What is a migraine?
-- A migraine is a type of headache, but not all headaches are migraines.
+This is a guided conversation with set questions and answers.
+
+In this conversation I go over common questions about what you can do, my migraines, and what I experience during a migraine.
+
+There are 3 parts to the conversation. The first part of the conversation is about what you can do and there are a total of 8 questions in this section.
+         
+
+What can I do to help when someone is having a migraine? 
+
+If someone you know is having a migraine ask them what they need. Patiently, calmly, and trust their symptoms. 
+
+
+What could they need?
+  
+They could need help finding a place to lay down. Finding some snacks such as candy, ice water, ice chips, salty snacks, coca-cola or other sugary/caffeinated drinks, electrolytes, coffee, tea, french fries, or juice. Keeping the head cold with ice packs. Keeping the neck warm with heat packs. Finding blankets. Help finding a bin to throw up in. No bright lights, and no perfume. 
+        
+       
+What should I *not* ask when someone is having a migraine? 
+
+Have you tried drinking water?/Maybe you are dehydrated? Do you want ibuprofen/Tylenol/essential oils? Why do you get migraines? Have you tried lying down in a dark room? These questions are annoying. Just ask what you can do. 
+ 
+       
+What can I avoid saying to someone with migraines? 
+
+Drink more water! It's just a bad headache Do yoga! (or any other exercise routine) Try essential oils! Have you tried the _____ diet? I get headaches all the time too! (yes, your pain is valid, but knowing this does not help) 
+   
+       
+But that worked for me/my neighbour/this one 60 year old man? 
+ 
+Good for them. Don't say these things anyways. While some Naturopathic practices and exercises have helped some people with migraines, they do not work for everyone. And chances are that they have already tried it! 
+        
+       
+How can I talk about migraine/migraines? 
+
+Language is important and can shape how we understand things. When talking about my experiences, I use the term migraines (plural). Other people may say they have migraine (singular) to describe a similar experience. 
+
+        
+How is the term migraine used? 
+
+This is how the condition is referred to in academic and medical settings. Migraine is used like asthma. For example, a person has asthma and gets asthma attacks. A person has migraine and gets migraine attacks. A person with over 15 migraine attacks per month has chronic migraine. Saying migraine emphasizes that even between migraine attacks, a person's life is impacted by this condition. 
+    
+        
+Why do you say migraines (plural)? 
+
+I choose to say my migraines (plural) when talking about my experiences because mine are different each time, unpredictable, and I have times without migraines. Not everyone feels the same way about this term, and because we all have different experiences, respecting how we talk about our own experiences matters. Just please don't interchange migraine(s) and headache. 
+        
+  
+The second part of the conversation is about my migraines and there are a total of 16 questions in this section.
+  
+
+What is a migraine? 
+
+A migraine is a type of headache (but not all headaches are migraines). 
+
 
 What is the difference between a headache and a migraine?
-- This is one of the most common questions I get when talking about my migraines. 
-- But I'm not a doctor, and I don't always know exactly where that line is.
-- I also get headaches, and when I do, they are annoying, and the experience does not compare. 
-- Unlike when I get a migraine, I can continue my day with a headache, and they mostly go away with over the counter painkillers. 
 
-How often do you get migraines?
-- Weekly or biweekly or up to 10 per month. 
-- I have had months with more migraines and months with 0 migraines.
+This is one of the most common  s I get when talking about my migraines. But I'm not a doctor, and I don't always know exactly where that line is.
 
-What causes your migraines?
-- That is a good question. 
-- I am not 100% sure. 
-- Migraines are sometimes hereditary. 
-- My mom gets migraines, but not as often as I do. 
-- I have other things, triggers, that I suspect cause my migraines.  
 
-What are triggers?
-- In the migraine community and with doctors, "triggers" are what some people with migraines know can result in migraines. 
-- Some members of the migraine community do not believe triggers exist but are just part of their prodrome, part of the migraine attack that comes before the pain. 
-- Learning about triggers can be empowering, but there are many feelings of guilt and shame around triggers. 
-- Some days, even if I do everything right, I can still have a migraine. 
-- If you have migraines, be kind to yourself. 
+Do you get headaches? 
+
+Yes, I also get headaches. When I do have a headache, they are annoying, but they do not compare to my migraines. Unlike when I get a migraine, I can continue my day with a headache, and they mostly go away with OTC (over the counter) painkillers. 
+    
+
+How often do you get migraines? 
+
+Weekly or biweekly or up to 10x per month. I have had months with more than 10 migraines and months with 0 migraines. 
+     
+      
+What causes your migraines? ,
+
+That is a good question. I am not 100% sure. Migraines are sometimes hereditary. My mom gets migraines, but not as often as I do. I have other things (triggers) that I suspect cause my migraines. 
+        
+       
+What are triggers? 
+
+In the migraine community and with doctors, triggers are what some people with migraines know can result in migraines. Some members of the migraine community do not believe triggers exist but are just part of their prodrome (part of the migraine attack that comes before the pain). Learning about triggers can be empowering, but there are many feelings of guilt and shame around triggers. 
+      
+
+So if you know your triggers, you could prevent your migraines?
+
+Not really. Some days, even if I do everything right, I can still have a migraine. If you have migraines, be kind to yourself. 
+
 
 What are some examples of triggers?
-- Other triggers include smells, sounds, foods, and lights.
-- But this is not an exhaustive list.
 
+Triggers include smells, sounds, foods, and lights. But this is not an exhaustive list. 
+   
+     
 What are your triggers?
-- Barometric changes such as changes in the pressure and weather
-- Too much caffeine
-- Too little caffeine
-- Too much sugar
-- Too little sugar
-- Too much sleep
-- Too little sleep
-- Sleeping in a bad position
-- Some clothing items with pressure on the head, neck, shoulder, or back
-- Exercise
-- Crying
-- Allergies
-- Stress
 
-Have you always had migraines?
-- No. 
-- They started when I was 15. 
-- I used to get a lot of headaches alongside my migraines. 
-- I would take painkillers almost daily. 
-- The Mayo Clinic says that migraines often first occur during adolescence from 10-19 and are the worst during one's 30s.
+Barometric changes (pressure/weather), too much caffeine, too little caffeine, too much sugar, too little sugar, too much sleep, too little sleep, sleeping in a bad position, some clothing items with pressure on my head, neck, shoulder, or back, exercise, crying, allergies, stress and maybe some more that I do not know about yet. 
 
+
+Have you always had migraines? 
+
+No. They started when I was 15.I used to get a lot of headaches alongside my migraines. I would take painkillers almost daily. 
+        
+       
 Is there any specific time of day/month/year you get migraines?
-- Also, no. 
-- My migraines do not happen at any specific time of the day or month, or year. 
-- Somedays, I have been woken up in the middle of the night because of a migraine. 
-- For many people with migraines, monthly hormone changes or changes such as menopause can cause more or fewer migraines.
 
+Also, no. My migraines do not happen at any specific time of the day or month, or year. Somedays, I get woken up in the middle of the night because of a migraine. And on other days, they happened when I am awake. 
+
+       
 How can you prevent migraines?
-- I wish I knew. 
-- I avoid my triggers as much as I can, which for me means being aware of what I eat and drink, how much I sleep, what clothes I wear... 
-- But again, I can do everything right and still not be able to prevent a migraine.
 
+I wish I knew. I avoid my triggers as much as I can, which for me means being aware of everything I eat and drink, how much I sleep each night, what clothes I wear. But again, I can do everything right and still not be able to prevent a migraine. 
+        
+       
 Do you know when a migraine is going to happen?
-- Not always. 
-- I can usually feel it coming on 1h before it gets bad. 
-- Sometimes, I also know when a migraine might happen because of a visual aura.
+
+Not always. I can usually feel it coming on 1h before it gets bad. Sometimes, I also know when a migraine might happen because of a visual aura. 
+
 
 How long do migraines last?
-- It depends on the person. 
-- Most of my migraines last a day, so 24 hours, if I don't take a pill and 3-4 hours if I take a pill and it works.
 
-Do you take anything for it?
-- I take triptans. 
-- There are two main types of migraine medicinal treatments; abortive and preventative. 
-- Triptans are abortive, meaning that they are supposed to stop a migraine and the associated symptoms when I can feel one coming on or once it has started. 
-- They usually work for me, but sometimes they don't work. 
-- Other abortive treatments can focus on reducing nausea, but I don't take those very often. 
-- Preventative treatments are to reduce the occurrence and severity of migraines. 
-- I've tried taking magnesium, which is a preventative treatment...
-- But it makes me feel nauseous, which can trigger a migraine for me.
+It depends on the person. Most of my migraines last around 24 hours if I don't take a pill, and 3-4 hours if I take a pill (and it works). 
+        
+       
+What do you take for your migraines?
 
-How do you make your migraines stop?
-- If it does not go away with the triptan, I wait it out. 
-- Waiting is terrible physical-pain wise and terrible for my mental health. 
-- When this happens, it does not usually last more than 24 hours for me. 
-- I have been lucky to not have needed to visit the emergency room because of a migraine. 
-- Many others with this condition often need to visit the ER. 
-- From what I've read in the r/migraine community, it is the last option people have and is often a terrible experience.
+I take triptans. There are two main types of medicinal migraine treatments; abortive and preventative. Triptans are abortive, meaning that they are supposed to stop my migraine and associated symptoms when I can feel one starting or happening. Preventative treatments are to reduce the occurrence and severity of migraines. In the past I tried taking magnesium, which is a preventative treatment, but it did not work for me. 
+        
+       
+How do you make your migraines stop? 
 
+If it does not go away with the triptan, I wait it out. Triptans usually work for me, but sometimes they don't work. Waiting it out is terrible physical-pain wise and terrible for my mental health. When this happens, it does not usually last more than 24 hours for me. 
+
+
+The third and final part of the conversation is about what I experience during a migraine and there are a total of 7 questions in this section.
+  
+       
 What happens when you get a migraine?
-- When I get a migraine, I miss out on a lot of things. 
-- When I get a migraine, it hurts. 
-- I get sad. 
-- It is hard to see other people try to help me when there is not much they can do.
 
+When I get a migraine, I miss out on a lot of things. When I get a migraine, it hurts. I get sad. It is hard to see other people try to help me when there is not much they can do. 
+        
+       
 How much does it hurt?
-- I don't want to compare it to any pain you might have experienced or are experiencing. 
-- But trust me, and the people in your life with migraines, that it hurts.
-- a lot.
 
+I don't want to compare it to any pain you might have experienced or are experiencing. But trust me, and the people in your life with migraines, that it hurts. a lot. 
+        
+       
 What is it like?
-- Migraines are more than just the pain. 
-- Technically, they have 4 main phases; prodrome, aura, headache, and postdrome.
-- Sometimes, I get an aura before my migraines. 
-- An aura is also different in people with migraines. 
-- Mine are visual auras. 
-- For me, the aura is a blind or blurry spot and then grows. 
-- It starts at the centre of my vision, and then I can no longer read. 
-- It grows to the left and up to form a crescent shape. 
-- As it grows, I see colourful zig-zags, and everything is blurry. 
-- The crescent shape lasts the longest and then grow to blur all my vision. 
-- My auras take about 20 minutes and then clear up.
-- After an aura, I either get a painful migraine, or I don't feel pain but still experience other migraine symptoms. 
-- For me, it's 50/50 if I get a painful migraine or not. 
-- Doctors have told me that I am more at risk to have blood clots and strokes because I experience auras with migraines. 
-- Because of this, I cannot take certain medications such as birth control.
-- When I first got auras, nobody understood what I was experiencing. 
-- I never thought to google what I was experiencing until my doctor told me they were auras. 
-- Other people experience auras differently and in different parts of their bodies. 
-- Some people with migraines don't experience any auras at all, but they might experience some prodrome symptoms to know when a migraine is coming.
-- I also experience aphasia throughout my migraine attacks. 
-- When I experience aphasia during a migraine, I forget words, can't think well, and do not complete my sentences.
+ 
+My migraines are more than just the pain. Technically, migraines have 4 main phases; prodrome, aura, headache (the very painful part), and postdrome. Sometimes, I get a visual aura during the prodrome phase of my migraines. For me, the aura is a blind/blurry spot that then grows. It starts at the centre of my vision, and then I can no longer read. It grows to the left and up to form a crescent shape. As it grows, I see colourful zig-zags, and everything in the centre is blurry. The crescent shape lasts the longest and then grows to blur all my vision. 
 
-What can I do to help?
-- If someone you know is having a migraine:
-- Ask them what they need. Patiently, calmly, and trust their symptoms.
-- Help them find a place to lay down
-- Some snacks are good: candy, ice water, ice chips, salty snacks, coca-cola or other sugary/caffeinated drinks, coffee, tea, french fries, juice.
-- Keep the head cold - ice packs
-- Keep the neck warm - heat packs
-- Blankets
-- Help them find a bin to throw up in
-- Electrolytes
-- No bright lights
-- Do not use perfume
+        
+What happens after the aura?
 
-What to not ask someone who is currently having a migraine?
-- Have you tried drinking water?/Maybe you are dehydrated?
-- Do you want ibuprofen/Tylenol/essential oils?
-- Why do you get migraines?
-- Have you tried lying down in a dark room?
+My auras take about 20 minutes and then my vision clears up. After an aura, I either get a painful migraine, or I don't feel pain, but may still experience other migraine symptoms. For me, it's 50/50 if I get a painful migraine or not. 
+      
+       
+Why do you experience auras? 
 
-What to avoid saying to someone with migraines?
-- Drink more water!
-- It's just a bad headache
-- Do yoga! or any other exercise routine
-- Try essential oils!
-- While some Naturopathic practices and exercises have helped some people with migraines, they do not work for everyone and chances are that they have already tried it!
-- I get headaches all the time too! Yes, your pain is valid, but knowing this does not help and neither does Tylenol.
-- Try meditation!
-- Have you tried the insert-diet-name-here diet?
-
-Talking about migraine/s?
-- Language is important and can shape how we understand things. 
-- When talking about my experiences, I use the term migraines plural. 
-- Other people may say they have migraine singular to describe a similar experience. 
-- This is also how the condition is referred to in academic and medical settings.
-- Migraine is used like asthma. 
-- For example, a person has asthma and gets asthma attacks.
-- A person has migraine and gets migraine attacks. 
-- A person with over 15 migraine attacks per month has "chronic migraine". 
-- Saying migraine emphasizes that even between migraine attacks, a person's life is impacted by this condition.
-- I choose to say my migraines plural when talking about my experiences because mine are different each time, unpredictable, and I have times without migraines. 
-- Not everyone feels the same way about this term, and because we all have different experiences, respecting how we talk about our own experiences matters. 
-- Just please don't interchange migraine/migraines with headache. 
+Nobody really knows. Doctors have told me that I am more at risk to have blood clots and strokes because I experience auras with my migraines. Because of this, I cannot take certain medications such as birth control. When I first got auras, nobody understood what I was experiencing. I did not know what I was experiencing until my doctor told me they were auras. 
+        
+       
+Can everyone with migraines see what you see? 
+  
+Not unless they have auras. Even then, it is not the exact same for everyone. Other people can also experience auras in different parts of their body. Some people with migraines don't experience any aura at all, but they might experience some prodrome symptoms to know when a migraine is coming. 
 
 
-Thank you for having this conversation.
+Does anything else happen during your migraines? 
+
+I also experience aphasia throughout my migraines. When I experience aphasia during a migraine, I forget words, can't think well, and do not complete my sentences. It is frustrating. 
+
+
+This is the end of the questions. Thank you for having this conversation.
